@@ -65,44 +65,4 @@ public class PersonController {
         }
         throw new idNotFoundException(hkid);
     }
-
-//    @JsonProperty("last_name")
-//    private String lastName;
-//
-//    @JsonProperty("last_name")
-//    public String getLastName() {
-//        return lastName;
-//    }
-//
-//    @JsonProperty("last_name")
-//    public void setLastName(String lastName) {
-//        this.lastName = lastName;
-//    }
-//
-//    @JsonProperty("first_name")
-//    private String firstName;
-//
-//
-//    @JsonProperty("first_name")
-//    public String getFirstName() {
-//        return firstName;
-//    }
-//
-//    @JsonProperty("first_name")
-//    public void setFirstName(String firstName) {
-//        this.firstName = firstName;
-//    }
-//
-//    @JsonProperty("hkid_number")
-//    private String hkid;
-//
-//    @JsonProperty("hkid_number")
-//    public String getHkid() {
-//        return hkid;
-//    }
-//
-//    @JsonProperty("hkid_number")
-//    public void setHkid(String hkid) {
-//        this.hkid = hkid;
-//    }
 }
